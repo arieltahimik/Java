@@ -12,3 +12,6 @@ https://www.codecademy.com/catalog/language/java
 
 ### HideAndSeek.java
 - Sample on how to print on the same line using print
+
+### DataTypesAndVariables.java
+- Java data types and variables. printf() sample.
