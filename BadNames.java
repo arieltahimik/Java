@@ -1,4 +1,4 @@
-/*
+/**
  * Naming variables according to convention leads to clear, readable, and maintainable code.
  * In Java, variable names are case-sensitive. myHeight is a different variable from myheight. 
  * The length of a variable name is unlimited, but we should keep it concise while keeping the meaning clear.
@@ -10,21 +10,21 @@
  * 
 */
 
-/**
 // good style
 boolean isHuman;
 
-// bad styles
-// no capitalization for new word
+// bad styles, no capitalization for new word
 boolean ishuman;
+
 // first word should be lowercase
-boolean IsHuman;
+ boolean IsHuman;
+
 // underscores don't separate words
-boolean is_human;
-*/
+ boolean is_human;
+
 
 public class BadNames {
-	public static void main(String[] args) {   
+  public static void main(String[] args) {   
 		String 1stName = "Samira";
     String blah = "Smith";
     String .com = "samira@google.com";
@@ -35,17 +35,16 @@ public class BadNames {
 	}
 }
 
-/** CORRECT/PREFERRED VERSION
-public class BadNames {
-	public static void main(String[] args) {   
-		String firstName = "Samira";
-    String blah = "Smith";
-    //String _com = "samira@google.com";
-    String dotCom = "samira@google.com";
-    int salaryExpectation = 100000;
-    int yearOfBirth = 1955;
-    
-    System.out.println("The program runs!");
-	}
-}
-*/
+// CORRECT/PREFERRED VERSION
+// public class BadNames {
+//   public static void main(String[] args) {
+//     String firstName = "Samira";
+//     String blah = "Smith";
+//     // String _com = "samira@google.com";
+//     String dotCom = "samira@google.com";
+//     int salaryExpectation = 100000;
+//     int yearOfBirth = 1955;
+//
+//     System.out.println("The program runs!");
+//   }
+// }
