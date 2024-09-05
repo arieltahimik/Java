@@ -22,9 +22,8 @@ boolean ishuman;
 // underscores don't separate words
  boolean is_human;
 
-
-public class BadNames {
-  public static void main(String[] args) {   
+ public class BadNames {
+   public static void main(String[] args) {   
 		String 1stName = "Samira";
     String blah = "Smith";
     String .com = "samira@google.com";
@@ -33,7 +32,7 @@ public class BadNames {
     
     System.out.println("The program runs!");
 	}
-}
+ }
 
 // CORRECT/PREFERRED VERSION
 // public class BadNames {

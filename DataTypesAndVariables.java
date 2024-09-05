@@ -8,6 +8,7 @@ public class DataTypesAndVariables {
     double doubleMax = Double.MAX_VALUE;
     boolean bool = true;
     char chr = 'A';
+    String author = "ArielT";
 
     System.out.println("");
     System.out.println("PRIMITIVE DATA TYPES");
@@ -19,7 +20,7 @@ public class DataTypesAndVariables {
     System.out.println("double");
     System.out.println("boolean");
     System.out.println("char");
-    System.out.println("");
+    System.out.println();
 
     System.out.println("Byte: " + byteNum);
     System.out.println("Short: " + shortNum);
@@ -29,10 +30,11 @@ public class DataTypesAndVariables {
     System.out.println("Double: " + doubleMax);
     System.out.println("Boolean: " + bool);
     System.out.println("Char: " + chr);
-    System.out.println("");
+    System.out.println("String: " + author);
+    System.out.println();
 
     // Another way to output using Print Format
-    System.out.printf("Byte: %d\nShort: %d\nInt: %d\nLong: %d\nFloat: %.2f\nDouble: %.2f\nBool: %b\nChar: %c\n",
-        byteNum, shortNum, intNum, longNum, floatMax, doubleMax, bool, chr);
+    System.out.printf("Byte: %d\nShort: %d\nInt: %d\nLong: %d\nFloat: %.2f\nDouble: %.2f\nBool: %b\nChar: %c\nString: %s\n",
+        byteNum, shortNum, intNum, longNum, floatMax, doubleMax, bool, chr, author);
   }
 }
